@@ -1,0 +1,25 @@
+{
+  "name": "print-platform-backend",
+  "version": "1.0.0",
+  "description": "Backend services, database models, controllers, and utilities for Print Platform",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.10",
+    "typescript": "^5"
+  }
+}
